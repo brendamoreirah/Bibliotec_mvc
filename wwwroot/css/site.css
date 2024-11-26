@@ -22,7 +22,8 @@ body {
 
 /******************* Cabeçalho *******************/
 .header {
-  bac
+  background-color: var(--dark-blue);
+  height: 96px;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}sagui
+}
 
 .header .navbar {
   display: flex;
@@ -58,7 +59,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   transition: color 0.4s;
-}sagui
+}
 .header .navbar .navbar-item:hover {
   color: var(--green);
 }
