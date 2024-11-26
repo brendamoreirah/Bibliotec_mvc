@@ -37,9 +37,12 @@ namespace Bibliotec.Contexts
                 //User Id  =sa;;
                 //PasswordHasher = 123;
                 //Integrated Security=true;
-                optionsBuilder.UseSqlServer(@"Data Source=NOTE31-S28\\SQLEXPRESS; Initial 
-              Catalog = Bibliotec_mvc; User Id=sa; 
-              Password=abc123; Integrated Security=true; TrustServerCertificate = true");
+                optionsBuilder.UseSqlServer(@"Data Source=NOTE31-S28\SQLEXPRESS;
+              Initial Catalog = Bibliotec_mvc;
+               User Id=sa; 
+              Password=abc123;
+               Integrated Security=true;
+                TrustServerCertificate = true");
 
             }
 
